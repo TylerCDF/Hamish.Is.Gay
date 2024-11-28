@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px #888;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="message"></h1>
+    <script>
+        document.getElementById("message").textContent = "Hamish is gay";
+    </script>
+</body>
+</html>
